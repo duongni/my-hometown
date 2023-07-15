@@ -17,8 +17,16 @@
 }
 .content h1 {
   font-size: 96px;
+  font-weight: 700;
 }
 .content h4 {
   font-weight: 300;
   font-size: 40px;
+}
+.btn {
+  margin-top: 32px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 16px 32px;
 }
