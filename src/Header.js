@@ -1,5 +1,5 @@
 import React from "react";
-import cvlk from "./cong-vine-lk.jpeg";
+
 import "./Header.css";
 
 export default function Header() {
