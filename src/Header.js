@@ -7,7 +7,7 @@ export default function Header() {
       <div className="content">
         <h3>.TRAVEL.</h3>
         <h1>Welcome to Long Khanh</h1>
-        <h4> New, young and vibrant city</h4>
+        <h4> One of the a New, young and vibrant city of Vietnam</h4>
         <button type="button" class="btn btn-light">
           EXPLORE
         </button>

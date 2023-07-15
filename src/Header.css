@@ -1,6 +1,9 @@
 .Header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./thanh-pho-long-khanh-suc-song-cua-mot-thanh-pho-tre-va-xanh-1.jpg);
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.5),
+      rgba(39, 32, 68, 0.5)
+    ),
+    url(./img/thanh-pho-long-khanh-suc-song-cua-mot-thanh-pho-tre-va-xanh-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11,22 +14,64 @@
   padding-bottom: 286px;
 }
 .content h3 {
-  font-size: 34px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 900;
   letter-spacing: 5px;
+  line-height: 1.5;
 }
 .content h1 {
   font-size: 96px;
   font-weight: 700;
 }
 .content h4 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 40px;
 }
 .btn {
   margin-top: 32px;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 3px;
   padding: 16px 32px;
+  color: rgb(39, 32, 68);
+}
+@media (max-width: 800px) {
+  .content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .content h3 {
+    font-size: 20px;
+  }
+  .content h1 {
+    font-size: 60px;
+  }
+  .content h4 {
+    margin-top: 25px;
+    font-size: 28px;
+  }
+  .content .btn {
+    padding: 10px 24px;
+    margin-top: 28px;
+  }
+}
+@media (max-width: 576px) {
+  .content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .content h3 {
+    font-size: 16px;
+  }
+  .content h1 {
+    font-size: 46px;
+  }
+  .content h4 {
+    font-size: 18px;
+  }
+  .content .btn {
+    padding: 10px 24px;
+    margin-top: 28px;
+    font-size: 12px;
+  }
 }
