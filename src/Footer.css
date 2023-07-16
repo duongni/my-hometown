@@ -1,0 +1,47 @@
+.Footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.5),
+      rgba(39, 32, 68, 0.5)
+    ),
+    url(/src/img/lk-street.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-gap: 20px;
+  margin-top: 100px;
+}
+.Footer h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content1 {
+  text-align: left;
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.Footer ul {
+  padding: 0;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Footer a {
+  text-decoration: none;
+  color: white;
+}
+.Footer p {
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
