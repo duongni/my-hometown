@@ -8,10 +8,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.footer-content {
   display: grid;
   grid-template-columns: 1fr 2fr 3fr;
-  grid-gap: 20px;
-  margin-top: 100px;
+  grid-gap: 64px;
 }
 .Footer h5 {
   color: white;
@@ -20,9 +24,8 @@
 }
 .content1 {
   text-align: left;
-  padding: 10px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
+  margin: 100px 71px;
 }
 .Footer ul {
   padding: 0;
@@ -44,4 +47,30 @@
   font-size: 16px;
   font-weight: 400;
   color: white;
+}
+.Footer .credit {
+  font-size: 10px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .Footer {
+    grid-gap: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .footer-content {
+    grid-gap: 20px;
+  }
+  .content1 {
+    margin: 50px 30px;
+  }
+}
+@media (max-width: 576px) {
+  .footer-content {
+    grid-gap: 10px;
+  }
+  .content1 {
+    margin: 50px 20px;
+  }
 }
