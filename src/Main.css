@@ -35,8 +35,6 @@ section {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .column-right {
-  }
 }
 @media (max-width: 576px) {
   section {
