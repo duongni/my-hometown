@@ -95,15 +95,17 @@ iframe {
 }
 @media (max-width: 576px) {
   .Post {
-    padding: 50px auto;
+    padding: 50px 10px;
     padding-bottom: 0;
   }
   .Post section {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 25px;
-    padding: 15px auto;
+    padding: 15px 0;
     padding-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
   iframe {
     width: 350px;
