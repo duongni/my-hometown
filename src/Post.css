@@ -27,7 +27,38 @@
 iframe {
   width: 500px;
 }
-
+@media (max-width: 1700px) {
+  .Post {
+    padding: 75px 20px;
+    padding-bottom: 0;
+  }
+  .Post section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding: 15px 5px;
+    padding-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  iframe {
+    width: 450px;
+  }
+}
+@media (max-width: 1500px) {
+  iframe {
+    width: 400px;
+  }
+}
+@media (max-width: 1350px) {
+  .Post section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  iframe {
+    width: 350px;
+  }
+}
 @media (max-width: 1200px) {
   .Post {
     padding: 75px 20px;
@@ -43,7 +74,7 @@ iframe {
     margin-right: 20px;
   }
   iframe {
-    width: 350px;
+    width: 300px;
   }
 }
 @media (max-width: 920px) {
