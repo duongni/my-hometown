@@ -27,10 +27,20 @@ section {
 .column-right {
   text-align: left;
 }
+@media (max-width: 1200px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+    margin: 70px auto;
+    grid-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 @media (max-width: 920px) {
   section {
     grid-template-columns: 1fr 1fr;
     margin: 70px auto;
+    margin-bottom: 50px;
     grid-gap: 30px;
     padding-left: 20px;
     padding-right: 20px;
@@ -45,5 +55,11 @@ section {
   .column-right {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .Main h3 {
+    font-size: 30px;
+  }
+  .Main p {
+    font-size: 14px;
   }
 }

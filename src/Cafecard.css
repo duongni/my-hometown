@@ -3,7 +3,6 @@
 }
 .coffee-places {
   margin-top: 100px;
-
   padding: 100px 170px;
 }
 .Cafecard section {
@@ -47,10 +46,14 @@
   aspect-ratio: 1/1;
 }
 .Cafecard button {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
   background: #4b3b5d;
   color: white;
   margin-top: 24px;
   padding: 16px 32px;
+  width: 100%;
 }
 .Cafecard a {
   text-decoration: none;
@@ -59,4 +62,45 @@
 
 .cafe1 {
   margin: 24px;
+}
+@media (max-width: 1200px) {
+  .coffee-places {
+    margin-top: 50px;
+    padding: 75px 20px;
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 920px) {
+  .coffee-places {
+    margin-top: 50px;
+    padding: 55px 20px;
+    padding-bottom: 15px;
+  }
+  .Cafecard section {
+    grid-gap: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .coffee-places {
+    margin-top: 25px;
+    padding: 25px 10px;
+    padding-bottom: 5px;
+  }
+  .Cafecard section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Cafecard h2 {
+    font-size: 14px;
+  }
+  .Cafecard h3 {
+    font-size: 30px;
+  }
+  .Cafecard p {
+    font-size: 14px;
+  }
+  .Cafecard button {
+    font-size: 12px;
+    padding: 10px 24px;
+  }
 }
