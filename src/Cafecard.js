@@ -5,7 +5,7 @@ import vy from "./img/vy-coffee.png";
 import "./Cafecard.css";
 export default function Cafecard() {
   return (
-    <div className="Cafecard">
+    <div className="Cafecard" id="explore">
       <div className="coffee-places">
         <h2>The city is famed for its locally cultivated coffee beans.</h2>
         <h3>Favorite coffee in Long Khanh</h3>
